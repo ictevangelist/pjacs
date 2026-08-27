@@ -36,11 +36,11 @@ progressive JPEG).
 3. **HTTPS** — the old site's certificate has lapsed. Renew or re-issue the
    certificate with the hosting provider before launch (Let's Encrypt is free);
    the privacy policy promises HTTPS.
-4. **Verify details** — the site currently shows: address 119 Porchester Road,
-   Hucclecote, Gloucester GL3 3DY; email paul@pjacs.co.uk; "30+ years"
-   experience; "£2m public liability insurance" (from the old site — confirm
-   the current figure); founding year 2010. Phone numbers were deliberately
-   removed at Mark's request — contact is via the form only.
+4. **Verify details** — the site currently shows: email paul@pjacs.co.uk;
+   "30+ years" experience; "£2m public liability insurance" (from the old
+   site — confirm the current figure); founding year 2010. Phone numbers and
+   the street address were deliberately removed at Mark's request — contact
+   is via the form only.
 5. **Limited company details** — if the business trades as a limited company,
    UK law requires the registered name, number and office address on the
    website. Add them to the footer once confirmed.
@@ -48,7 +48,6 @@ progressive JPEG).
 
 ## Editing tips
 
-- The announcement banner text lives at the top of every page (`div.announce`).
 - The gallery is a plain list of `<figure class="work-item">` blocks in
   `portfolio.html` — copy one, set `data-category`, drop a new optimised photo
   into `assets/images/`, done.
