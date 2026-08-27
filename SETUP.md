@@ -4,7 +4,7 @@
 
 1. Go to [analytics.google.com](https://analytics.google.com) and sign in with
    the Google account that should own the data (Paul's ideally).
-2. **Admin → Create → Property** — name it "PJA Carpentry & Joinery", country
+2. **Admin → Create → Property** — name it "PJA Carpentry Joinery Services", country
    United Kingdom, currency GBP.
 3. Add a **Web data stream** for `https://www.pjacs.co.uk` and copy the
    **Measurement ID** (looks like `G-ABC123XYZ`).
