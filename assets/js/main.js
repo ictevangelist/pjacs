@@ -90,6 +90,26 @@
       });
     }
 
+    /* Facebook feed: click-to-load so no Meta cookies are set without consent */
+    var fbLoad = document.getElementById("fb-load");
+    if (fbLoad) {
+      fbLoad.addEventListener("click", function () {
+        var wrap = document.getElementById("fb-embed");
+        var iframe = document.createElement("iframe");
+        iframe.src = "https://www.facebook.com/plugins/page.php?href=" +
+          encodeURIComponent("https://www.facebook.com/100062215727083") +
+          "&tabs=timeline&width=500&height=640&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true";
+        iframe.title = "PJA Carpentry Services on Facebook";
+        iframe.setAttribute("allow", "encrypted-media");
+        iframe.loading = "lazy";
+        var note = document.createElement("p");
+        note.className = "fb-note";
+        note.textContent = "Feed not showing? Facebook sometimes blocks embeds \u2014 use the button above to open the page directly.";
+        fbLoad.replaceWith(iframe);
+        wrap.appendChild(note);
+      });
+    }
+
     /* Current year in footer */
     document.querySelectorAll("[data-year]").forEach(function (el) {
       el.textContent = new Date().getFullYear();

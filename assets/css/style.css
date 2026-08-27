@@ -466,6 +466,27 @@ p { margin: 0 0 1em; }
 .quote-banner cite { font-style: normal; color: var(--brass); font-weight: 600; }
 
 /* --------------------------------------------------------------------------
+   Facebook embed (click-to-load)
+   -------------------------------------------------------------------------- */
+.fb-embed {
+  margin-top: 2.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  justify-content: center;
+}
+.fb-embed iframe {
+  border: 0;
+  width: 100%;
+  max-width: 500px;
+  height: 640px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  background: var(--paper);
+}
+.fb-embed .fb-note { width: 100%; text-align: center; font-size: 0.85rem; color: var(--ink-faint); }
+
+/* --------------------------------------------------------------------------
    Process
    -------------------------------------------------------------------------- */
 .process { counter-reset: step; }
