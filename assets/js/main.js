@@ -104,8 +104,9 @@
         iframe.loading = "lazy";
         var note = document.createElement("p");
         note.className = "fb-note";
-        note.textContent = "Feed not showing? Facebook sometimes blocks embeds \u2014 use the button above to open the page directly.";
-        fbLoad.replaceWith(iframe);
+        note.innerHTML = 'Feed not showing? <a href="https://www.facebook.com/p/PJA-Carpentry-Services-100062215727083/" target="_blank" rel="noopener">Open the page on Facebook</a> instead.';
+        var actions = document.getElementById("fb-actions");
+        actions.replaceWith(iframe);
         wrap.appendChild(note);
       });
     }
