@@ -1,4 +1,4 @@
-/* PJA Carpentry & Joinery — site interactions */
+/* PJA Carpentry Services — site interactions */
 
 (function () {
   "use strict";

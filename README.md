@@ -1,6 +1,6 @@
-# PJA Carpentry Joinery Services — website
+# PJA Carpentry Services — website
 
-A modern, fast, fully static website for PJA Carpentry Joinery Services (Paul Anderson),
+A modern, fast, fully static website for PJA Carpentry Services (Paul Anderson),
 Gloucester — rebuilt in 2026 from the previous pjacs.co.uk site.
 
 No build step, no frameworks, no database: plain HTML + CSS + a little vanilla
@@ -12,7 +12,7 @@ works.
 | File | Purpose |
 |---|---|
 | `index.html` | Home — hero, services overview, featured work, testimonials |
-| `services.html` | Kitchens, bedrooms, bathrooms, joinery, carpentry, project management |
+| `services.html` | Kitchens, bedrooms, bespoke carpentry, major projects, maintenance |
 | `portfolio.html` | Filterable gallery of real project photos with lightbox |
 | `testimonials.html` | 16 genuine client testimonials from the previous site |
 | `about.html` | Paul's background, values, service area |
